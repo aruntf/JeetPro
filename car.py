@@ -1,8 +1,8 @@
 class Car():
-    def __init__(self, color, mile, typ):
+    def __init__(self, color, mile, type):
         self.colour = color
         self.mileage = mile
-        self.type = typ
+        self.type = type
 
     def getCarColour (self):
         print("The colour of the car is: "+self.colour.title())
